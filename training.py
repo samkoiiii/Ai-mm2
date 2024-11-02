@@ -38,7 +38,7 @@ def get_reward(state, action):
 
 # Training loop
 ai_agent = MM2_AI()
-episodes = 10000
+episodes =  90000
 
 for episode in range(episodes):
     state = simulate_mm2_environment()
